@@ -1,0 +1,16 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> <%= yield(:title)%></title>
+  </head>
+  <body>
+      <div class="center jumbotron">
+        <h1>Home</h1>
+        <%=link_to"Sign Up", signup_path, class: "btn btn-lg btn-primary" %>
+        <h2>Ceci est la HomePage de <a href="https://www.donacom.com"> Donacom </a></h2>
+        <a href="https://www.ringover.me/X6dOddfIcDKg58Q" id="link_click2call_2"><img src="https://www.ringover.com/img/c2c/click2call_fr_v1.png"></a>
+      </div>
+  </body>
+</html>

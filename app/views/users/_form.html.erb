@@ -1,0 +1,6 @@
+<%= simple_form_for(@operateur) do |f| %>
+  <%= f.input :nom, label: "Nom d'utilisateur", error: 'Le nom de peut être vide'%>
+  <%= f.input :email %>
+  <%= f.input :mot_de_passe, label: "Mot de passe", hint: 'Doit contenir au moins 8 caractères' %>
+  <%= f.button :submit, label: 'Valider' %>
+<% end %>

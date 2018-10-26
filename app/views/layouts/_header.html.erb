@@ -1,0 +1,16 @@
+<header class = "navbar navbar-top navbar-inverse">
+  <div class="container">
+    <!-- <%=link_to "DonAPP",'#', id: "logo"%> -->
+    <nav>
+      <!-- <%=link_to image_tag("logo_donacom.webp", alt:"logo"),root_url %> -->
+        <%=link_to "Don@com",root_url,id: "logo" %>
+      <ul class="nav navbar-nav navbar-right">
+        <li> <%=link_to "Accueil",root_url %> </li>
+        <li> <%=link_to "Qui sommes-nous?",about_path %> </li>
+        <li> <%=link_to "Aide",help_path %> </li>
+        <li> <%=link_to "Contact",contact_path %> </li>
+        <li> <%=link_to "Login","#" %> </li>
+      </ul>
+    </nav>
+  </div>
+</header>
